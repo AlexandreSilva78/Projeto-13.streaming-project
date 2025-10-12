@@ -1,120 +1,120 @@
-Play Movies - Plataforma de Streaming
-https://img.shields.io/badge/React-18.2.0-blue
-https://img.shields.io/badge/Styled_Components-6.0.0-purple
-https://img.shields.io/badge/React_Router-6.0.0-orange
-https://img.shields.io/badge/API-TMDb-green
+# 🎬 Play Movies - Plataforma de Streaming
 
-Uma moderna plataforma de streaming desenvolvida em React.js que permite explorar filmes, séries e artistas populares.
+![React](https://img.shields.io/badge/React-18.2.0-blue)
+![Styled Components](https://img.shields.io/badge/Styled_Components-6.0.0-purple)
+![React Router](https://img.shields.io/badge/React_Router-6.0.0-orange)
+![API](https://img.shields.io/badge/API-TMDb-green)
 
-🚀 Demonstração
-GitHub Pages: https://alexandresilva78.github.io/Projeto-13.streaming-project/
+Uma moderna plataforma de streaming desenvolvida em **React.js** que permite explorar **filmes, séries e artistas populares** de forma prática e intuitiva.
 
-Repositório: https://github.com/AlexandreSilva78/Projeto-13.streaming-project
+---
 
-✨ Funcionalidades
-🎬 Catálogo Completo: Filmes, séries e artistas populares
+## 🚀 Demonstração
 
-🔍 Navegação Intuitiva: Interface moderna e responsiva
+**GitHub Pages:** [Clique aqui para ver a demo](https://alexandresilva78.github.io/Projeto-13.streaming-project/)
 
-📱 Design Responsivo: Adaptado para todos os dispositivos
+**Repositório:** [GitHub - Projeto Play Movies](https://github.com/AlexandreSilva78/Projeto-13.streaming-project)
 
-🎥 Trailers Integrados: Player de vídeo para visualização de trailers
+---
 
-🎯 Recomendações Personalizadas: Sugestões baseadas no conteúdo
+## ✨ Funcionalidades
 
-📋 Detalhes Completos: Sinopses, elenco, gêneros e informações técnicas
+- 🎬 **Catálogo Completo:** Filmes, séries e artistas populares  
+- 🔍 **Navegação Intuitiva:** Interface moderna e responsiva  
+- 📱 **Design Responsivo:** Adaptado para desktop, tablet e mobile  
+- 🎥 **Trailers Integrados:** Player de vídeo para trailers  
+- 🎯 **Recomendações Personalizadas:** Sugestões baseadas no conteúdo  
+- 📋 **Detalhes Completos:** Sinopses, elenco, gêneros e informações técnicas  
+- ⚡ **Performance Otimizada:** Carregamento rápido e experiência fluída  
 
-⚡ Performance Otimizada: Carregamento rápido e experiência fluída
+---
 
-🛠️ Tecnologias Utilizadas
-Frontend: React.js 18.2.0
+## 🖼️ Screenshots
 
-Roteamento: React Router DOM 6.0.0
+Desktop:  
+![Desktop](https://github.com/AlexandreSilva78/Projeto-13.streaming-project/blob/main/src/assets/img/final_desktop_image.png)
 
-Estilização: Styled Components 6.0.0
+Mobile (focado na tela do smartphone):  
+![Mobile](https://github.com/AlexandreSilva78/Projeto-13.streaming-project/blob/main/src/assets/img/final_smartphone_image_focused_screen.png)
 
-Carousel: Swiper
+Exemplo de Slider:  
+![Slider](https://github.com/AlexandreSilva78/Projeto-13.streaming-project/blob/main/src/assets/img/ChatGPT%20Image%2011_10_2025%2C%2023_14_59.png)
 
-API: The Movie Database (TMDb)
+Exemplo de Modal com trailer:  
+![Modal](https://github.com/AlexandreSilva78/Projeto-13.streaming-project/blob/main/src/assets/img/ChatGPT%20Image%2011_10_2025%2C%2023_33_18.png)
 
-Ícones: Font Awesome
+---
 
-Fontes: Google Fonts (Montserrat)
+## 🛠️ Tecnologias Utilizadas
 
-📦 Estrutura do Projeto
-text
+- **Frontend:** React.js 18.2.0  
+- **Roteamento:** React Router DOM 6.0.0  
+- **Estilização:** Styled Components 6.0.0  
+- **Carousel:** Swiper  
+- **API:** The Movie Database (TMDb)  
+- **Ícones:** Font Awesome  
+- **Fontes:** Google Fonts (Montserrat)  
+
+---
+
+## 📦 Estrutura do Projeto
+
 src/
-├── components/          # Componentes reutilizáveis
-│   ├── Button/         # Botões customizados
-│   ├── Card/           # Cards de conteúdo
-│   ├── Credits/        # Componente de créditos
-│   ├── Header/         # Cabeçalho com navegação
-│   ├── Modal/          # Modal para trailers
-│   ├── Slider/         # Carousel de conteúdo
-│   └── SpanGenres/     # Tags de gêneros
-├── containers/         # Páginas principais
-│   ├── Home/          # Página inicial
-│   ├── Movies/        # Página de filmes
-│   ├── Series/        # Página de séries
-│   └── Detail/        # Página de detalhes
-├── layout/            # Layout principal
-├── services/          # Serviços e API
-├── utils/             # Utilitários
-└── assets/            # Recursos estáticos
-🎯 Componentes Principais
-Header
-Navegação responsiva com menu hamburger
+├── assets/ # Recursos estáticos (imagens, ícones, fontes)
+├── components/ # Componentes reutilizáveis
+│ ├── Button/
+│ ├── Card/
+│ ├── Credits/
+│ ├── Header/
+│ ├── Modal/
+│ ├── Slider/
+│ └── SpanGenres/
+├── containers/ # Páginas principais
+│ ├── Home/
+│ ├── Movies/
+│ ├── Series/
+│ └── Detail/
+├── layout/ # Layout principal
+├── services/ # Serviços e integração com API
+└── utils/ # Funções utilitárias
 
-Background dinâmico no scroll
+yaml
+Copiar código
 
-Indicador de página ativa
+---
 
-Slider
-Carousel horizontal com Swiper
+## 🎯 Componentes Principais
 
-Navegação por gestos
+- **Header:** Navegação responsiva, menu hamburger e indicador de página ativa  
+- **Slider:** Carousel horizontal com Swiper e navegação por gestos  
+- **Modal:** Player de vídeo integrado, animações customizadas e tratamento de erros  
+- **Card:** Exibição de posters com informações básicas e design consistente  
 
-Layout responsivo
+---
 
-Modal
-Player de vídeo integrado
+## 🎨 Design System
 
-Animações customizadas
+**Cores Principais:**  
+- Primária: `#e50914` (Vermelho Netflix)  
+- Secundária: `#ffffff` (Branco)  
+- Background: `#000000` (Preto)  
+- Hover: `#b20710` (Vermelho escuro)  
 
-Tratamento de erros
+**Tipografia:**  
+- Fonte Principal: Montserrat  
+- Pesos: 100-900  
+- Tamanhos: Escala responsiva  
 
-Card
-Exibição de posters
+---
 
-Informações básicas do conteúdo
+## 🔧 Instalação e Uso
 
-Design consistente
+**Pré-requisitos:**  
+- Node.js 16+  
+- npm ou yarn  
 
-🎨 Design System
-Cores Principais
-Primária: #e50914 (Vermelho Netflix)
-
-Secundária: #ffffff (Branco)
-
-Background: #000000 (Preto)
-
-Hover: #b20710 (Vermelho escuro)
-
-Tipografia
-Fonte Principal: Montserrat
-
-Pesos: 100-900
-
-Tamanhos: Escala responsiva
-
-🔧 Instalação e Uso
-Pré-requisitos
-Node.js 16+
-
-npm ou yarn
-
-Instalação
-bash
+**Instalação:**
+```bash
 # Clone o repositório
 git clone https://github.com/AlexandreSilva78/Projeto-13.streaming-project.git
 
@@ -126,12 +126,14 @@ npm install
 
 # Execute o projeto
 npm run dev
-Scripts Disponíveis
+Scripts Disponíveis:
+
 bash
-npm run dev          # Desenvolvimento
-npm run build        # Build de produção
-npm run preview      # Preview do build
-npm run deploy       # Deploy para GitHub Pages
+Copiar código
+npm run dev       # Desenvolvimento
+npm run build     # Build de produção
+npm run preview   # Preview do build
+npm run deploy    # Deploy para GitHub Pages
 🌐 API Integration
 O projeto utiliza a API do The Movie Database (TMDb) para:
 
@@ -153,22 +155,19 @@ Tablet: Adaptação do menu e sliders
 Mobile: Menu hamburger e otimização touch
 
 🚀 Deploy
-O projeto está configurado para deploy automático no GitHub Pages através do GitHub Actions.
+Configuração para deploy automático no GitHub Pages.
 
 📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 
 👨‍💻 Autor
 Alexandre Silva
-
 GitHub: @AlexandreSilva78
-
-Projeto: Play Movies
 
 🙏 Agradecimentos
 The Movie Database pela API
 
-React pela framework incrível
+React pelo framework incrível
 
 Styled Components pela estilização
 
