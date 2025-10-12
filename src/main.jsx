@@ -6,7 +6,7 @@ import GlobalStyle  from './styles/globalStyles.js'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter >
+    <BrowserRouter basename="/Projeto-13.streaming-project/">
       <Router />
     </BrowserRouter>
     <GlobalStyle />
