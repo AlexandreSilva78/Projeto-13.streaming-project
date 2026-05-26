@@ -796,4 +796,4 @@ color: white;
     body {
         background: #000000;
     }
-`;s1.createRoot(document.getElementById("root")).render(H.jsx(ze.StrictMode,{children:H.jsxs(Nb,{basename:"/Projeto-13.streaming-project/",children:[H.jsx(mA,{}),H.jsx(gA,{})]})}));
+`;s1.createRoot(document.getElementById("root")).render(H.jsx(ze.StrictMode,{children:H.jsxs(Nb,{children:[H.jsx(mA,{}),H.jsx(gA,{})]})}));
